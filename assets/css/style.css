@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
+    
+    
+}
+
+body {
+    width: 100vw;
+    max-width: 1440px;
+    height: 100vh;
+    background-color:hsl(185, 75%, 39%);
+    overflow: hidden;
+    
+    
+}
+
+.container {
+    width: 350px;
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: #FFF;
+    
+    
+}
+
+svg {
+    border-radius: 10px 10px 0 0;
+}
+
+.top-img {
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.top-img-item {
+    border-radius: 50%;
+    border: 5px solid #FFF;
+}
+
+.list-info {
+    text-align: center;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+    
+}
+
+.name {
+    color:hsl(229, 23%, 23%);
+    font-weight: 700;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.name span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+}
+
+.list-info p {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.views-likes--list {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    
+}
+
+.views-likes {
+    text-align: center;
+    color:hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.views-likes p {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.bg-pattern-top {
+    position: absolute;
+    width: 70%;
+    right: 50%;
+    bottom: 48%;
+    z-index: -1;
+    border: none;
+}
+  
+.bg-pattern-bottom {
+    position: absolute;
+    top:65%;
+    left: 50%;
+    z-index: -1;
+    width: 70%;
+    border: none;
+}
+
+@media (max-width: 375px) {
+    .bg-pattern-top {
+        position: absolute;
+        width: 150%;
+        right: 30%;
+        bottom: 58%;
+        z-index: -1;
+        border: none;
+    }
+      
+    .bg-pattern-bottom {
+        position: absolute;
+        top:%;
+        left: 35%;
+        z-index: -1;
+        width: 150%;
+        border: none;
+    }
+}
