@@ -5,8 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kumbh Sans', Arial, Helvetica, sans-serif;
-    
-    
+    overflow: hidden;
 }
 
 body {
@@ -14,20 +13,17 @@ body {
     max-width: 1440px;
     height: 100vh;
     background-color:hsl(185, 75%, 39%);
-    overflow: hidden;
-    
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container {
     width: 350px;
-    margin: auto;
-    margin-top: 250px;
-    margin-bottom: 25px;
     border-radius: 10px;
     background-color: #FFF;
-    
-    
+    margin-bottom: 10px;
 }
 
 svg {
@@ -101,7 +97,7 @@ svg {
   
 .bg-pattern-bottom {
     position: absolute;
-    top:65%;
+    top:55%;
     left: 50%;
     z-index: -1;
     width: 70%;
@@ -120,7 +116,7 @@ svg {
       
     .bg-pattern-bottom {
         position: absolute;
-        top:%;
+        top: 50%;
         left: 35%;
         z-index: -1;
         width: 150%;
